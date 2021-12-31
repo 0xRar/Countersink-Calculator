@@ -1,4 +1,7 @@
 # Countersink Calculator
+![GitHub language count](https://img.shields.io/github/languages/count/0xRar/Countersink-Calculator)
+![Twitter URL](https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Ffcv9_q)
+
 Simple 90° Countersink Calculator made using **(html, css, js)** was originally made as an enhancement for a tool a friend made
 who actually works in the sheetmetal industry if you can relate please feel free to use & modify
 it to your liking.
