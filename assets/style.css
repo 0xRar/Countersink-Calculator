@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap');
+
+:root {
+    --credit_grey: #4E4E50;
+    --bg: #1A1A1D;
+}
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg);
+    color: whitesmoke;
+}
+
+#logo {
+    pointer-events: none;
+    height: 100px;
+}
+
+#credit { 
+    color: var(--credit_grey);
+    position: fixed;
+    top: 90%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--credit_grey);
+}
+
+a:hover {
+    background-color: #C30703;
+    color: white;
+}
+
+#inputs {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+::placeholder {
+    font-family: 'Roboto Mono', monospace, sans-serif;
+}
+
+label {
+    text-align: center;
+    font-size: 40px;
+}
+
+input {
+    height: 30px;
+    width: 35vw;
+    height: 5vh;
+    border: 1px;
+    border-bottom-style: solid;
+    font-size: 30px;
+    background-color: var(--bg);
+    color: white;
+    animation: an 8s infinite;
+    outline: none;
+}
+
+.btns {
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 20px 35px;
+    border: 2px solid;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#submitBtn {
+    margin: 20px;
+    border-color: #ffd100;
+}
+
+#reloadBtn {
+    border-color: #26337a;
+}
+
+.btns:hover {
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#submitBtn:active {
+    background-color: green;
+    transition: .1s;
+}
+
+#reloadBtn:active {
+    background-color: red;
+    transition: .1s;
+}
